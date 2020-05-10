@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk()
+root.title('MyGUI')
+root.geometry('600x350')
+root.minsize(width=400, height=250)
+#root.maxsize()
+label= Label(root, text="PythonGUI")
+label.pack()
+photo= PhotoImage(file="iamcoder.png")
+photo_label = Label(image=photo)
+photo_label.pack()
+root.mainloop()
