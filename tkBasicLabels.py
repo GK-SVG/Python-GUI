@@ -3,7 +3,8 @@ from tkinter import *
 root = Tk()
 root.geometry("744x133")
 root.title("My GUI")
-
+root.geometry("600x300")
+root.minsize(width=500,height=250)
 # Important Label Options
 # text - adds the text
 # bd - background
@@ -33,8 +34,8 @@ commercially successful actors of Indian \ncinema. According to the Forbes 2018 
 # padx
 # pady
 
-# title_label.pack(side=BOTTOM, anchor ="sw", fill=X)
-title_label.pack(side=BOTTOM, fill=X, padx=34, pady=34)
+title_label.pack(side=BOTTOM, fill=X)
+#title_label.pack(side=TOP, fill=X, padx=34, pady=34)
 
 
 root.mainloop()

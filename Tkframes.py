@@ -1,0 +1,12 @@
+from tkinter import *
+root =Tk()
+root.geometry('655x333')
+f1= Frame(root,bg="gray", borderwidth=3,relief=SUNKEN)
+f1.pack(side=LEFT,fill="y")
+f2= Frame(root,bg="gray", borderwidth=3,relief=SUNKEN)
+f2.pack(side=TOP,fill="x")
+l2 = Label(f2,text="Welcome to Tkinter Text Editor", font="helvetica 16 bold" , fg="red")
+l2.pack(pady=15)
+l = Label(f1,text="Tkinter Frame")
+l.pack(pady=144,padx=60)
+root.mainloop()
