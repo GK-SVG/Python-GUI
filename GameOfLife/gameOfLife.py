@@ -1,7 +1,8 @@
-# Game of life
-# Dead cell comes alive only if 3 neighbor cells are alive
-# Live cell stays alive only if there are 2 or 3 live neighbor cells, else it dies
-# dynamic grid size
+#------------------------------------------------------------------Gautam Kumar--------------------------------------------------------------------------------
+#------------------------------------------------------------------Game of life-------------------------------------------------------------------------------- 
+#------------------------------------------------------ Dead cell comes alive only if 3 neighbor cells are alive-----------------------------------------------
+#---------------------------------------------------- Live cell stays alive only if there are 2 or 3 live neighbor cells, else it dies-------------------------
+#-------------------------------------------------------------- dynamic grid size------------------------------------------------------------------------------
 from tkinter import *
 from tkinter import font
 import time
@@ -30,7 +31,7 @@ class GameOfLife(Frame):
 		self.title_frame.grid(row = 0, column = 0, columnspan = 4)
 
 		self.titleFont = font.Font(family="Helvetica", size=14)
-		title = Label(self.title_frame, text = "Conway's Game of Life", font = self.titleFont)
+		title = Label(self.title_frame, text = "Game of Life", font = self.titleFont)
 		title.pack(side = TOP)
 
 		prompt = Label(self.title_frame, text = "Click the cells to create the starting configuration, the press Start Game:")
